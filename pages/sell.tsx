@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { NFT_COLLECTION_ADDRESS } from "../const/addresses";
 import type { NFT as NFTType } from "@thirdweb-dev/sdk";
 import NFTGrid from "../components/NFTGrid";
-import SaleInfo from "../components/SaleInfo";
+
 
 export default function Sell() {
     const { contract } = useContract(NFT_COLLECTION_ADDRESS);
